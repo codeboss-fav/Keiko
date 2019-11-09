@@ -596,7 +596,7 @@ button:focus {
     display: none;
 }
 #sec2 {
-    height: 100vh;
+    height: 120vh;
 }
 #sec3{
     bottom: -850px;
@@ -607,7 +607,7 @@ button:focus {
     height: 220px;
 }
 #svgtext{
-    padding-top: 0px;
+    padding-top: 7px;
 }
 
 #sec3textcont {
@@ -729,12 +729,14 @@ overflow-x: hidden;
 
 .footer {
     width: 100%;
-    height: 500px;
     background-color: rgba(0, 0, 0, 0.6);
     position: relative;
-    bottom: -78px;
+    bottom: -119px;
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
+}
+.more{
+    top: 45px;
 }
 
 }
