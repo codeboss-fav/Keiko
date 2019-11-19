@@ -48,3 +48,12 @@ function changeColor(e) {
 
     e.preventDefault();
 };
+
+document.querySelector('.navbar').addEventListener("click", borderTop)
+
+function borderTop(e) {
+
+    const button = document.querySelector('.colorbtn');
+    button.classList.add("borderTop");
+    e.preventDefault();
+};
